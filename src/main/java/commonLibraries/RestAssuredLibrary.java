@@ -14,7 +14,8 @@ public class RestAssuredLibrary {
 	 * @param resp
 	 * @param jsonPath
 	 */
-	public String getJsonPath(Response resp,String jsonPath) {
+	public String getJsonPath(Response resp,String jsonPath) 
+	{
 		String value=resp.jsonPath().getString(jsonPath);
 		return value;
 	

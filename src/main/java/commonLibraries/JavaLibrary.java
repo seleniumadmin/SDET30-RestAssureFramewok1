@@ -8,6 +8,10 @@ import java.util.Random;
  */
 
 public class JavaLibrary {
+	/**
+	 * This method will generate a random number for every execution
+	 * @return
+	 */
 	
 	public int getRandomNumber() 
 	{

@@ -1,11 +1,16 @@
 package commonLibraries;
 
 import java.sql.Connection;
+
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.mysql.cj.jdbc.Driver;
+/**
+ * this class contains generic method related to database
+ * @author Usha
+ */
 
 public class DatabaseLibrary {
 	//Step 1: register the database
